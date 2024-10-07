@@ -1,0 +1,1 @@
+data = '[{"ip": "mc.tymon.gay", "port": 25565, "version": "1.20.1", "modpack_name": "Elysium Days", "modpack": "https://modrinth.com/modpack/elysium-days"}]'

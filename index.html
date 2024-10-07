@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tymon</title>
+</head>
+<body>
+    <main>
+        <h1>Tymon Płochocki</h1>
+        <div class="about_me">
+            <h3>About me</h3>
+            <p>I am an aeronatutics and aerospace engineering student at Silesian University of Technology. I also program sometimes.</p>
+        </div>
+
+        <div class="my_projects">
+            <h3>Projects</h3>
+            <ul>
+                <li><a href="https://github.com/BigNtertainment/big-ngine-deprecated" target="_blank">Game engine written in C++</a></li>
+                <li><a href="https://github.com/BigNtertainment/crackhead-adventures" target="_blank">2D shooter written in bevy game engine</a></li>
+                <li><a href="https://github.com/imustend/cool-shaders" target="_blank">Some cool shaders written in GLSL</a></li>
+            </ul>
+            <p>You can find more projects on my <a href="https://github.com/imustend" target="_blank">github</a></p>
+        </div>
+
+        <div class="servers">
+            <h3>Minecraft Servers</h3>
+            <p>I also host some minecraft servers</p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th scope="col">IP</th>
+                    <th scope="col">Version</th>
+                    <th scope="col">Modpack</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Players</th>
+                </tr>
+                </thead>
+                <tbody id="servers_table">
+                    <script type="text/javascript" src="./servers.js"></script>
+                    <script type="text/javascript" src="./stats.js"></script>
+                    <!-- js pls do stuff -->
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+    <footer>
+        made by Tymon Płochocki 2024
+    </footer>
+</body>
+</html>
