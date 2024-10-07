@@ -53,3 +53,16 @@ myservers.forEach(element => {
         table.append(col)
     });
 });
+
+
+let DarkMode = () => {
+    let body = document.getElementById("site");
+    let thead = document.getElementById("head");
+    if (body.className == "light") {
+        body.className = "dark"
+        thead.className = "dark_table"
+    } else {
+        body.className = "light"
+        thead.className = "light_table"
+    }
+}

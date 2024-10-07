@@ -9,9 +9,12 @@
     <link href="./output.css" rel="stylesheet">
     <title>Tymon</title>
 </head>
-<body>
+<body class="light" id="site">
     <main>
-        <h1>Tymon Płochocki</h1>
+        <div class="header">
+            <h1>Tymon Płochocki</h1>
+            <button onclick="DarkMode()">Mode</button>
+        </div>
         <div class="about_me">
             <h3>About me</h3>
             <p>I am an aeronatutics and aerospace engineering student at Silesian University of Technology. I also program sometimes.</p>
@@ -32,7 +35,7 @@
             <p>I also host some minecraft servers</p>
 
             <table>
-                <thead>
+                <thead id="head" class="light_table">
                   <tr>
                     <th scope="col">IP</th>
                     <th scope="col">Version</th>
