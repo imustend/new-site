@@ -56,13 +56,18 @@ myservers.forEach(element => {
 
 
 let DarkMode = () => {
+    let button = document.getElementById("mode_button");
     let body = document.getElementById("site");
     let thead = document.getElementById("head");
     if (body.className == "light") {
         body.className = "dark"
         thead.className = "dark_table"
+        button.textContent = "bright"
+        button.className = "dark_mode_button"
     } else {
         body.className = "light"
         thead.className = "light_table"
+        button.textContent = "dark"
+        button.className = "light_mode_button"
     }
 }

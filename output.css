@@ -15,9 +15,26 @@ body {
   gap: 3rem;
 }
 
-button {
-  border-radius: 0;
+#mode_button {
+  border-radius: 10%;
   box-shadow: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.dark_mode_button {
+  color: #fefefe;
+  background-color: rgb(29, 42, 70);
+}
+
+.dark_mode_button:hover {
+  background-color: rgb(24, 35, 59);
+}
+
+light_mode_button {
+  color: #010101;
+  background-color: #D0D0D7;
 }
 
 .light {
