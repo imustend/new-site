@@ -1,0 +1,13 @@
+name: deploy-on-server
+on:
+  push:
+      branches:
+            -prod
+jobs:
+  check-bats-version:
+    runs-on:
+        labels: server
+    steps:
+      - uses: actions/checkout@v4
+      
+      
