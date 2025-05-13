@@ -9,6 +9,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-      - run: cd /home/imustend/www
       - run: git pull origin prod
-        working-directory: /home/imustend/www
+        working-directory: /home/imustend/www/new-site
