@@ -8,7 +8,5 @@ jobs:
     name: PullOriginProd
     runs-on: self-hosted
     steps:
-        - uses: actions/checkout@v4
-        - run: git pull origin prod
-          working-directory: /home/imustend/www
-          
+      - uses: actions/checkout@v4
+      - run: git pull origin prod
