@@ -4,12 +4,11 @@ on:
     branches:
       - prod
 jobs:
-  check-bats-version:
-    runs-on:
-        labels: server
+  auto-pull:
+    name: PullOriginProd
+    runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
-      - run: git pull origin prod
-        working-directory: /var/www/html/
-      
-      
+        - uses: actions/checkout@v4
+        - run: git pull origin prod
+          working-directory: /home/imustend/www
+          
